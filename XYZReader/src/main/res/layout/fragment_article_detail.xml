@@ -12,6 +12,19 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/indigo_900"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </com.google.android.material.appbar.AppBarLayout>
 
             <FrameLayout
                 android:id="@+id/photo_container"
@@ -23,6 +36,7 @@
                     android:id="@+id/photo"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:layout_marginTop="100dp"
                      />
 
                 <View

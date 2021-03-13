@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?colorPrimary"
-        android:elevation="32dp"
+        android:elevation="8dp"
         android:orientation="vertical">
 
         <!--suppress AndroidLintContentDescription -->
@@ -27,6 +27,7 @@
         <TextView
             android:id="@+id/article_title"
             style="@style/TextAppearance.AppCompat.Subhead"
+            android:fontFamily="sans-serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
@@ -40,6 +41,7 @@
         <TextView
             android:id="@+id/article_subtitle"
             style="@style/TextAppearance.AppCompat.Body1"
+            android:fontFamily="sans-serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
